@@ -1,0 +1,20 @@
+# Core
+python-dotenv>=1.0
+PyYAML>=6.0
+openpyxl>=3.1
+beautifulsoup4>=4.12
+tzdata>=2024.1
+
+# Mail
+IMAPClient>=3.0
+
+# Gmail filters + optional Google Sheets (OAuth 2.0)
+google-api-python-client>=2.100
+google-auth-oauthlib>=1.2
+google-auth-httplib2>=0.2
+
+# Scheduling
+APScheduler>=3.10,<4
+
+# Tests
+pytest>=8.0

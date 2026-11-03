@@ -1,0 +1,17 @@
+# Merchant/keyword → category. First match wins (case-insensitive substring).
+# Unmatched transactions get "Uncategorized" and are flagged in the report.
+categories:
+  Groceries:      [kroger, giant eagle, aldi, meijer, whole foods, trader joe, costco, walmart grocery]
+  Dining:         [restaurant, doordash, uber eats, grubhub, starbucks, mcdonald, chipotle, panera]
+  Transport:      [shell, bp, speedway, sunoco, marathon, uber, lyft, parking]
+  Utilities:      [aep ohio, duke energy, columbia gas, dominion energy, water, spectrum, at&t, verizon, t-mobile]
+  Housing:        [rent, mortgage, hoa]
+  Insurance:      [insurance, geico, progressive, state farm, allstate]
+  Health:         [pharmacy, cvs, walgreens, clinic, hospital, dental]
+  Shopping:       [amazon, target, best buy, ebay, etsy]
+  Subscriptions:  [netflix, spotify, hulu, disney+, youtube premium, apple.com/bill, icloud, prime video]
+  Entertainment:  [cinema, amc theatres, ticketmaster, steam]
+  Travel:         [airlines, delta, united, southwest, hotel, airbnb, expedia]
+  Education:      [tuition, coursera, udemy]
+  Fees & Interest: [fee, interest charge, late payment]
+  Income:         [payroll, direct deposit, salary, refund, interest paid, zelle from, venmo from]

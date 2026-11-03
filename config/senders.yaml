@@ -1,0 +1,13 @@
+# Financial sender registry: who sends what, and which parser reads it.
+# Filled in during mailbox discovery (directive: directives/01_mailbox_setup.md).
+# Each entry needs a parser at execution/parsers/<slug>.py with tests.
+#
+# Example (remove the leading '#' once the parser exists):
+# - slug: chase_card
+#   name: Chase credit card alerts
+#   match:                       # exact addresses or @domains
+#     - no.reply.alerts@chase.com
+#   parser: execution.parsers.chase_card
+#   default_type: expense        # income | expense | transfer
+#   card: "VISA ••1234"          # optional default if the email omits it
+senders: []
